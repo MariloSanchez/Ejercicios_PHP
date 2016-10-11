@@ -1,0 +1,16 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29-sep-2016, 10:33:21
+    Author     : maril
+*/
+div.derecha{
+    float: left;
+    background: pink;
+}
+h2{
+    text-align: center;
+}
