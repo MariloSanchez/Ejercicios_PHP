@@ -1,0 +1,125 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27-oct-2016, 18:51:15
+    Author     : maril
+*/
+body{
+    background-color: darkcyan;
+}
+div#contenedor{
+    background-color: white;
+    border: 1px solid black;
+    margin: 0px auto;
+    width:90%;
+    margin-top:50px;
+    margin-bottom:30px;
+    margin-left: 60px;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 2%;
+    position: absolute;
+    padding: 5%;
+}
+div#botones{
+    background-color: rgba(0, 153, 230,0.49);
+    width: 51%;
+    height: 350px;
+    margin: 0 auto;
+    border-radius: 5%;
+}
+.botonesMenu{
+    margin-top: 5%;
+    border-radius: 5%;
+    background-color: darkorange;
+    height: 27px;
+    cursor: pointer;
+}
+header{
+    text-align: center;
+    font-size: 550%;
+    color: orange;
+    text-shadow: 2px 2px 3px blue;
+}
+img.titulo{
+    margin-top: 2%;
+    padding: auto;
+    height: 200px;
+    width: 500px;
+
+}
+div#imagenes img{
+    max-width: 100%;
+    max-height: 200px;
+    background-color: white;
+    border-radius: 15%;
+    box-shadow: 5px 6px 5px grey;
+    display: inline-block;
+    margin: 0px auto;
+}
+table#carrito{
+    border: 1px solid red;
+    margin-top: 5%;
+    width: 500px;
+}
+.botonDetalles{
+    border: none;
+    background-color: transparent;
+}
+.botonDetalles:hover{
+    color: blue;
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.botonComprar{
+    text-decoration: none;
+    padding: 5px;
+    font-weight: 10px;
+    font-size: 15px;
+    color: white;
+    background-color: #0099e6;
+    border-radius: 10px;
+    border: 2px solid #0099e6;
+    box-shadow: 2px 2px 6px 1px #737373;
+  
+}
+.botonComprar:hover{
+    text-decoration: none;
+    padding: 5px;
+    font-weight: 10px;
+    font-size: 15px;
+    color: white;
+    background-color: #66ccff;
+    border-radius: 16px;
+    border: 2px solid #66ccff;
+    box-shadow: 2px 2px 6px 1px #737373;
+}
+#articulosRealizarPedidos{
+    background-color: #e6e6e6;
+    box-shadow: 2px 2px 6px 1px #737373;
+    margin: 0px auto;
+    margin-top: 3%;
+    border-radius: 3%;
+    padding: 5%;
+}
+#alta{
+    border: 1px solid blue;
+    border-radius: 3%;
+    background-color: white;
+    width: 7%;
+    margin-left: 5%;
+}
+table#articulosAdministracion {
+    width: 50%;
+    height: 300px;
+    border: 2px solid black;
+}
+table#articulosAdministracion div#imagenes{
+    border: 5px solid black;
+}
+
+   
+

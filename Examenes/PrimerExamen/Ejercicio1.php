@@ -41,10 +41,23 @@
         foreach ($numero as $n){//CONTENIDO
             echo "<td>$n</td>";
             
-            $primo = true;
-            $contador = 2;
+            $primosDeltante;
+            $x = 0;
             
-            do{
+            foreach ($arrayFinal as $num){
+                $divisores = 0;
+                for($i = 1; $i <= $num; $i++){
+                    if(($num%$i)==0){
+                        $divisores++;
+                    }
+                }
+                if($divisores <= 2){
+                    $primosDeltante[$x] = $num;
+                    $x++;
+                }
+            }
+            
+            /*do{
                 if($n % $contador == 0 && $n != $contador){
                     $primo = false;
                 }
@@ -57,7 +70,7 @@
             }else{
                 $arrayFinal[$contadorNoPrimo] = $n;
                 $contadorNoPrimo--;
-            }
+            }*/
         }
         echo "</tr></table>";
         
@@ -69,7 +82,7 @@
         echo "</tr><tr>";
         //LE DOY LA VUELTA AL ARRAY
         for($i = $totalNumeros - 1; $i >= 0; $i--){
-            echo "<td>$arrayFinal[$i]</td>";
+            echo "<td>$primosDeltante[$i]</td>";
         }
         echo "</tr></table>";
     }else{
